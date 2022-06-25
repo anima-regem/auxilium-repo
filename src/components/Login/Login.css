@@ -1,0 +1,107 @@
+.login-wrapper{
+    padding: 50px 0 50px 0;
+}
+.login-wrapper .signup-img{
+    width: 100%;
+}
+.login-section{
+    width: 590px;
+    height: 670px;
+    background-color: #FFDDE3;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 60px;
+}
+.login-section h1{
+    font-size: 42px;
+}
+.login-section p{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.login-btns{
+    display: flex;
+    justify-content: center;
+}
+.login-section p span a{
+    color: #289473;
+    text-decoration: none;
+}
+.login-section button{
+    width: 192px;
+    height: 44px;
+    background-color: #FFFAF7;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.login-section .apple-btn{
+    margin-left: 55px;
+    padding-left: 10px;
+}
+.login-section .line{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.login-section .first-line{
+    height: 1px;
+    width: 200px;
+    background-color: #2B3B49;
+    
+}
+.login-section .second-line{
+    height: 1px;
+    width: 200px;
+    background-color: #2B3B49;
+}
+/* .login-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.login-form label{
+    font-size: 15px;
+    color: 2B3B49;
+}
+.login-form input{
+    width: 412px;
+    height: 42px;
+    border-radius: 15px;
+    border: 2px solid #2B3B49;
+    background: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.policy-section {
+    display: flex;
+    flex-direction: row;
+}
+.policy-section input{
+   width: 10px;
+    border: 2px solid black;
+    margin-bottom: -10px;
+}
+
+.policy-section span a{
+    color: #289473;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.login-form .submit-btn{
+    width: 199px;
+    height: 49px;
+    border-radius: 7.86px;
+    background-color: #C2D6D0;
+    font-size: 20px;
+    margin-top: 10px;
+}
+@media(max-width:415px){
+    .signup-img{
+        display: none;
+    }
+}

@@ -1,0 +1,98 @@
+.signup-wrapper{
+    padding: 50px 0 50px 0;
+}
+.signup-wrapper .signup-img{
+    width: 100%;
+}
+.signup-section{
+    width: 590px;
+    height: 791px;
+    background-color: #FFDDE3;
+    border-radius: 10px;
+    margin-left: auto;
+    padding: 60px;
+}
+.signup-section h1{
+    font-size: 42px;
+}
+.signup-section p{
+    font-size: 15px;
+}
+.signup-btns{
+    display: flex;
+    justify-content: center;
+}
+.signup-section p span a{
+    color: #289473;
+    text-decoration: none;
+}
+.signup-section button{
+    width: 192px;
+    height: 44px;
+    background-color: #FFFAF7;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+}
+.signup-section .apple-btn{
+    margin-left: 55px;
+    padding-left: 10px;
+}
+.signup-section .line{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.signup-section .first-line{
+    height: 1px;
+    width: 200px;
+    background-color: #2B3B49;
+    
+}
+.signup-section .second-line{
+    height: 1px;
+    width: 200px;
+    background-color: #2B3B49;
+}
+.signup-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.signup-form label{
+    font-size: 15px;
+    color: 2B3B49;
+}
+.signup-form input{
+    width: 412px;
+    height: 42px;
+    border-radius: 15px;
+    border: 2px solid #2B3B49;
+    background: none;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 32px;
+}
+.policy-section {
+    display: flex;
+    flex-direction: row;
+}
+.policy-section input{
+   width: 10px;
+    border: 2px solid black;
+    margin-bottom: -10px;
+}
+.policy-section span a{
+    color: #289473;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.signup-form .submit-btn{
+    width: 199px;
+    height: 49px;
+    border-radius: 7.86px;
+    background-color: #C2D6D0;
+    font-size: 20px;
+}

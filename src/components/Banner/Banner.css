@@ -1,0 +1,42 @@
+.banner {
+  background: url(/public/images/background.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 837px;
+}
+.banner h1 {
+  font-size: 72px;
+  color: #2B3B49;
+}
+.banner p {
+  font-size: 27px;
+  color: #2B3B49;
+}
+.banner-heading {
+  margin-top: 195px;
+}
+
+.banner button{
+    margin-top: 18px;
+}
+
+.banner .find-btn {
+  width: 220px;
+  height: 62px;
+  border-radius: 10px;
+  border: none;
+  background-color: #EDAE9D;
+  font-size: 25px;
+  color: #2B3B49;
+}
+.banner .volunteer-btn {
+  width: 318px;
+  height: 62px;
+  margin-left: 48px;
+  border-radius: 10px;
+  border: 3px solid #EDAE9D;
+  font-size: 25px;
+  color: #2B3B49;
+  background-color: white;
+}
